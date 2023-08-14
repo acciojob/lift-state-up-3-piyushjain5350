@@ -9,7 +9,7 @@ const Parent=()=>{
         console.log(fn.value);
     }
     return(
-        <div>
+        <div className="parent">
             <h1>Parent Component</h1>
             <Child nameInput="Child Component 1" value="Option 1" handlingFn={handlingFn}/>
             <Child nameInput="Child Component 2" value="Option 2" handlingFn={handlingFn}/>
